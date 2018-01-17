@@ -1,0 +1,26 @@
+{
+  "name": "new-package",
+  "version": "1.0.0",
+  "description": "Find friends or something",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FenixRising13/FriendFinder.git"
+  },
+  "author": "Mark Powalisz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FenixRising13/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/FenixRising13/FriendFinder#readme"
+}
