@@ -12,7 +12,9 @@ var PORT = process.env.PORT || 3000;
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-require('/app/routing/htmlRoutes')(app);
-require('/app/routing/apiRoutes')(app);
+require('./app/routing/htmlRoutes.js')(app);
+require('./app/routing/apiRoutes.js')(app);
 
-app.listen(PORT);
+app.listen(PORT, function () {
+    console.log("App listening on PORT " + PORT);
+});
