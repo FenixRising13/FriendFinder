@@ -1,8 +1,8 @@
 # FriendFinder
-Find friends or something
+Meet-A-Mutant
 
 ## Description: ///.
-  * ///
+  * A site for mutants who feel like they are alone in the world to connect based on compatibility.
 
 ## Getting Started
   * Clone the repository.
