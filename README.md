@@ -1,7 +1,6 @@
-# FriendFinder
-Meet-A-Mutant
+# Meet-A-Mutant
 
-## Description: ///.
+## Description
   * A site for mutants who feel like they are alone in the world to connect based on compatibility.
 
 ## Getting Started
