@@ -6,7 +6,7 @@
 ## Getting Started
   * Clone the repository.
   * Run 'npm install' in command line to install dependencies
-  * Run command 'node app.js' ////
+  * Run command 'node server.js'
 
 ## Technology used
   * Node.js
