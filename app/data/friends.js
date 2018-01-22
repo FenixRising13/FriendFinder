@@ -1,5 +1,3 @@
-// var app = require('express');
-scoreToBeat = 10;
 
 var friends = [{
     "name": "Bebop",
@@ -83,4 +81,4 @@ var friends = [{
 
 }];
 
-module.exports(friends, scoreToBeat);
+module.exports = friends;
