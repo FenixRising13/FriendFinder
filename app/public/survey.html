@@ -314,7 +314,7 @@
         <script type="text/javascript">
             $("#add-btn").on("click", function (event) {
                 event.preventDefault();
-                
+
                 var newfriend = {
                     name: $("#name").val().trim(),
                     image: $("#image").val().trim(),
@@ -334,7 +334,7 @@
 
                 $.post("/api/new", newfriend).then(function (data) {
                     console.log(data);
-                    $('#results-modal').modal(options)
+                    $('#results-modal').modal('show');
                 })
                 
             })
